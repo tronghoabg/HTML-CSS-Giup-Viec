@@ -1,0 +1,30 @@
+:root {  /*nơi khai báo biến*/
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;  /* màu chữ không đen hoàn toàn giúp đọc đỡ mỏi mắt */
+}
+* { /* Selector * giúp apply css lên tất cả các thẻ html */
+    box-sizing: inherit; /* tạo thuộc tính kế thừa từ thẻ chứa nó */
+}
+html {
+    font-size: 62.5%;
+            /* mặc định ở nhiều trình duyệt khi đặt
+        font-size: 100% thì  nó được hiểu là 16px.
+        trong trường hợp font-size bằng 62.5% thì
+        1rem bằng 10px */
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.gird {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gird__full-width {
+    width: 100%;
+}
+.gird__row {
+    display: flex;
+    flex-wrap: wrap;
+}
