@@ -85,6 +85,7 @@ body {
     width: 32%;
     box-shadow: 1px 1px 100px 1px #ddd;
     margin-bottom: 50px;
+    margin-top: 20px;
     border-radius: 5px;
 }
 .col-4:hover {
@@ -160,7 +161,7 @@ body {
     padding: 0;
 }
 .col-6 ul li {
-    color: #777;
+    color: rgba(119, 119, 119, 0.800);
     font-weight: 500;
     padding: 4px 0;
     flex: 0 0 50%;
@@ -223,4 +224,70 @@ body {
     background-size: 400px;
     background-color: rgba(255,255,255,0.7);
     background-blend-mode: overlay;
+}
+.service-4 {
+    width: 32%;
+    border-radius: 10px;
+    border: 2px solid #f6f6f6;
+    padding: 50px 30px;
+    padding-top: 0;
+    transition: .5s;
+    margin-bottom: 70px;
+}
+.service-4:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+    box-shadow: 1px 1px 20px 1px #ddd;
+}
+.service__wrap{
+    text-align: center;
+    position: relative;
+}
+.service__icon {
+    margin: 0 auto;
+    position: relative;
+    top: -37.5px;
+    width: 75px;
+    height: 75px;
+    background-color: #4FC362;
+    border-radius: 50%;
+}
+.service__icon-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    width: 55px;
+    height: 55px;
+    margin: auto;
+}
+.service__title {
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+.chart {
+    background-color: #59ca6d;
+}
+.chart__detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+.chart__detail-img {
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+.chart__detail-content h3{
+    font-size: 3.5rem;
+    color: white;
+    margin: 0px;
+}
+.chart__detail-content p{
+    margin: 0;
 }
