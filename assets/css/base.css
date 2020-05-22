@@ -1,7 +1,7 @@
 :root {  /*nơi khai báo biến*/
     --white-color: #fff;
     --black-color: #000;
-    --text-color: #333;  /* màu chữ không đen hoàn toàn giúp đọc đỡ mỏi mắt */
+    --text-color: #212529;;  /* màu chữ không đen hoàn toàn giúp đọc đỡ mỏi mắt */
 }
 * { /* Selector * giúp apply css lên tất cả các thẻ html */
     box-sizing: inherit; /* tạo thuộc tính kế thừa từ thẻ chứa nó */
